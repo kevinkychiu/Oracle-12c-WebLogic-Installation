@@ -29,3 +29,10 @@
 	<li>'SOA_PROFILE_TYPE' - Configure the profile size (SMALL/MED/LARGE).</li>
 </ul>
 <p>To drop a repostiory, please use the same response file with operation=dropRepository.</p>
+
+<h4>soa_domain_1221.py</h4>
+<p>Sample SOA_DOMAIN python script for Oracle SOA 12.2.1.0.0 and generate the WLST python script to start/stop WebLogic.</p>
+<ul>
+	<li>start - $DOMAIN_HOME/bin/wlst.sh start</li>
+	<li>stop - $DOMAIN_HOME/bin/wlst.sh stop</li>
+</ul>
